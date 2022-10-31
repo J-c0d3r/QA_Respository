@@ -1,8 +1,12 @@
 # Dependency directories
 node_modules/
+videos/
+reports/
 
 # Optional npm cache directory
 .npm
 
 # dotenv environment variables file
 .env
+
+package-lock.json
