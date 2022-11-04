@@ -48,7 +48,6 @@ describe('Criando cenário de teste para o site globalsqa', () => {
 
   })
 
-
 })
 
 function criarUsuario() {
