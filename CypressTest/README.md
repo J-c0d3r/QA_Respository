@@ -1,6 +1,30 @@
 # QualidadeSoftware
 Repositório da matéria de S206 - Qualidade de Software 28/09/22
 
+## Executar o projeto já existente
+```
+Faça um clone do projeto ou baixe como .zip
+git clone
+
+Abra o projeto no Visual Studio, por exemplo, caso queira visualizar o código.
+
+Inicie o cypress pela linha de comando (precisa estar dentro do diretório raiz do projeto):
+Opção 1: ./node_modules/.bin/cypress open
+
+Opção 2: .\node_modules\.bin\cypress open
+
+Escolha qual navegador deseja abrir.
+
+Para gerar o relatório + video basta rodar specs por linha de comando (precisa estar dentro do diretório raiz do projeto):
+Opção 1: ./node_modules/.bin/cypress run --spec 'cypress/e2e/trabalho.cy.js'
+
+Opção 2: .\node_modules\.bin\cypress run --spec 'cypress\e2e\trabalho.cy.js'
+
+```
+
+
+
+## Começar um projeto do zero até o relatório final
 ```
 Criar o diretório inicial e indicar para o node que o diretório é um projeto
 npm init
