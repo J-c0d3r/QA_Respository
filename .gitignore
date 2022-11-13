@@ -2,6 +2,7 @@
 node_modules/
 videos/
 reports/
+target/
 
 # Optional npm cache directory
 .npm
