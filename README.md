@@ -1,5 +1,5 @@
 # QualidadeSoftware
-Repositório da matéria de S206 - Qualidade de Software
+Repositório da matéria de Qualidade de Software
 
 ## Tecnologias Utilizadas:
 ## Cypress
