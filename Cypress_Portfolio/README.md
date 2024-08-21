@@ -3,3 +3,4 @@
 "npm init -y" -> inicia o projeto trazendo o package.json(configurações) <br>
 "npm install cypress -D" -> instala o cypress <br>
 "npx Cypress open" -> abrir o cypress <br>
+"npx Cypress run" -> Roda todos os testes e gera um video de cada teste
