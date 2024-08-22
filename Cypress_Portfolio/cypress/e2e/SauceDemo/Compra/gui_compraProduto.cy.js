@@ -48,3 +48,47 @@ describe('Teste E2E - Realizando a compra de produtos com sucesso', () => {
         cy.get('[data-test="complete-header"]').should('have.text', 'Thank you for your order!')
     });
 });
+
+describe.only('Testes variados', () => {
+    it('Teste com o carrinho vazio', () => {
+        //login
+        cy.login_teste('standard_user','secret_sauce')
+        cy.get('[data-test="title"]').should('contain', 'Products')
+
+        cy.get('[data-test="shopping-cart-link"]').click()
+        cy.get('[data-test="checkout"]').click()
+
+        //CheckoutInformation
+        cy.get('[data-test="firstName"]').type('Teste Primeiro Nome')
+        cy.get('[data-test="lastName"]').type('Teste Ultimo Nome')
+        cy.get('[data-test="postalCode"]').type('65565487')
+        cy.get('[data-test="continue"]').click()
+
+        //Confirma se o total é 0
+        cy.get('[data-test="total-label"]').should('have.text', 'Total: $0.00')
+        cy.get('[data-test="finish"]').click()
+
+        //Confirma tela final
+        cy.get('[data-test="complete-header"]').should('have.text', 'Thank you for your order!')
+    });
+
+    it('Teste todas as informações no checkout em branco', () => {
+        //login
+        cy.login_teste('standard_user','secret_sauce')
+        cy.get('[data-test="title"]').should('contain', 'Products')
+
+        cy.get('[data-test="shopping-cart-link"]').click()
+        cy.get('[data-test="checkout"]').click()
+
+        //CheckoutInformation
+        cy.get('[data-test="firstName"]').should('contain','')
+        cy.get('[data-test="lastName"]').should('contain','')
+        cy.get('[data-test="postalCode"]').should('contain','')
+        cy.get('[data-test="continue"]').click()
+
+        //checagem
+        cy.get('[data-test="error"]').should('have.text', 'Error: First Name is required')
+    });
+
+    
+});
