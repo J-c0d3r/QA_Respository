@@ -10,5 +10,4 @@ module.exports = defineConfig({
     videoCompression: 32,
     videoUploadOnPasses: true,
   },
-
 });

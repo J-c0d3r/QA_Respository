@@ -1,6 +1,7 @@
-# QualidadeSoftware
-Repositório da matéria de Qualidade de Software
+# Software Quality
 
-## Tecnologias Utilizadas:
-## Cypress
+My portfolio containing some test cases.🧪
+
+## Tools Used:
+## Cypress 
 ## Karate API
