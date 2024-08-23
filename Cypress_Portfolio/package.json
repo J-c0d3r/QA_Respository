@@ -1,7 +1,7 @@
 {
   "name": "cypress_yt",
   "version": "1.0.0",
-  "description": "\"npm init -y\" -> inicia o projeto trazendo o package.json(configurações)\r \"npm install cypress -D\" -> instala o cypress\r \"npx Cypress open\" -> abrir o cypress",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

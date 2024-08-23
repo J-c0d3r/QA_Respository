@@ -11,9 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      # Install npm dependencies, cache them correctly
-      # and run all Cypress tests
+
       - name: Cypress Run Tests
-        uses: cypress-io/github-action@v6
+        uses: ./
         with:
-          working-directory: ./Cypress_Portfolio
+          working-directory: Cypress_Portfolio
