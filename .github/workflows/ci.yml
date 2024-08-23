@@ -16,5 +16,5 @@ jobs:
 
     - name: Execute tests
       working-directory: ./Cypress_Portfolio
-      run: npm run test
+      run: npx cypress run
 
