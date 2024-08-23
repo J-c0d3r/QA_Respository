@@ -10,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
     - name: Install dependencies
       working-directory: ./Cypress_Portfolio
       run: npm install
 
-      - name: Execute tests
+    - name: Execute tests
       working-directory: ./Cypress_Portfolio
       run: npm run test
 
