@@ -3,6 +3,7 @@ node_modules/
 videos/
 reports/
 target/
+screenshots/
 
 # Optional npm cache directory
 .npm
