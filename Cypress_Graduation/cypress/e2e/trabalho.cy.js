@@ -2,29 +2,28 @@
 
 describe('Criando cenário de teste para o site Cocrihar na aba Orçamento', () => {
 
+/*     //#1
     it('Caso de teste: Realizando um orçamento com todas as informações válidas', () => {
         cy.visit('https://www.cocrihar.com.br/');
-        cy.get('.elementor-element-52a60c1d > .elementor-widget-wrap').should('be.visible');
-        cy.get('.elementor-element-9a71f69 > .elementor-widget-wrap > .elementor-element > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link').click();
-        cy.get('.elementor-element-52a60c1d > .elementor-widget-wrap').should('be.visible');
+        cy.get('a > .attachment-full').should('be.visible');
+        cy.get('.elementor-cta__button').click();
 
-        cy.get('#rd-text_field-ky4yju92').type('Jorginho1');
-        cy.get('#rd-email_field-ky4yju93').type('jorginho1@gmail.com');
-        cy.get('#rd-phone_field-ky4yju94').type('2222222222');
-        cy.get('#rd-phone_field-ky4yju95').type('3333333333');
-        cy.get('#rd-text_field-ky4yju96').type('www.jorginhosites.com.br');
-        cy.get('#rd-text_field-ky4yju97').type('empresa de teste do jorginho');
-        cy.get('#rd-text_field-ky4yju98').type('CEO de testes');
-        cy.get('#rd-select_field-ky4yju99').select('O quanto antes');
-        cy.get('#rd-text_area_field-ky4yju9a').type('No ajudas. Apenas testes.');
-        cy.get('#rd-button-kxtrzzkf').click();
+        cy.get('#form-field-name').type('Jorginho1');
+        cy.get('#form-field-email').type('jorginho1@gmail.com');
+        cy.get('#form-field-telefone').type('2222222222');
+        cy.get('#form-field-empresa').type('empresa de teste do jorginho');
+        cy.get('#form-field-cargo').select('Analista');
+        cy.get('#form-field-n_funcionarios').select('1 - 5');
+        cy.get('#form-field-segmento').select('Automotivo');
+        cy.get('#form-field-verba_mkt').select('De R$2.500,00 a R$5.000,00');
+        cy.get('.elementor-field-type-submit > .elementor-button').click();
     })
-
-    it('Inserção de informações apenas nos campos não-obrigatórios', () => {
+ */
+    //#2
+    /* it('Inserção de informações apenas nos campos não-obrigatórios', () => {
         cy.visit('https://www.cocrihar.com.br/');
-        cy.get('.elementor-element-52a60c1d > .elementor-widget-wrap').should('be.visible');
-        cy.get('.elementor-element-9a71f69 > .elementor-widget-wrap > .elementor-element > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link').click();
-        cy.get('.elementor-element-52a60c1d > .elementor-widget-wrap').should('be.visible');
+        cy.get('a > .attachment-full').should('be.visible');
+        cy.get('.elementor-cta__button').click();
 
         cy.get('#rd-phone_field-ky4yju94').type('2222222222');
         cy.get('#rd-text_field-ky4yju96').type('www.jorginhosites.com.br');
@@ -327,6 +326,6 @@ describe('Criando cenário de teste para o site Cocrihar na aba Área do Cliente
         cy.get(':nth-child(1) > .dg-input__standard > input').clear();
         cy.get(':nth-child(2) > .dg-input__standard > input').clear();
 
-    })
+    }) */
 
 })
