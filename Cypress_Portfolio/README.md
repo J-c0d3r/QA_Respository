@@ -1,6 +1,6 @@
 
 
-### To run this project
+## To run this project
 
 <strong>First</strong>, you need these software instaled:
 
@@ -14,7 +14,7 @@
 
 <br>
 
-<strong>Third:</strong> Choose which project you want to open e then open this project(folder) in VSCode<br>
+<strong>Third:</strong> Choose which project you want to open and then open this project(folder) in VSCode<br>
 
 <br>
 
