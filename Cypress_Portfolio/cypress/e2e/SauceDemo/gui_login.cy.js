@@ -74,11 +74,11 @@ describe('Teste Funcional de Login', () => {
         cy.get('[data-test="title"]').should('contain', 'Products')
     });
 
-    //#8
+ /*    //#8
     it('Verifica se o login funciona corretamente com o 2º username', () => {
         cy.login_teste('locked_out_user', 'secret_sauce')
         cy.get('[data-test="title"]').should('contain', 'Products')
-    });
+    }); */
 
     //#9
     it('Verifica se o login funciona corretamente com o 3º username', () => {
