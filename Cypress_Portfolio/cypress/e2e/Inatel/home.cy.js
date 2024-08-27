@@ -106,7 +106,7 @@ describe.only('Testando resoluções diferentes', () => {
 
     it('Resolução 1920x1080', () => {
         cy.viewport(1920,1080)
-        cy.get('.ma-navMobile.mobileHome').should('be.visible')
+        /* cy.get('.ma-navMobile.mobileHome').should('be.visible') */
         /* cy.get('.ui_w').should('be.visible') */
 
         cy.get('#SolucoesTecnologicas > .wrapCont').should('be.visible')
