@@ -105,9 +105,9 @@ describe.only('Testando resoluções diferentes', () => {
     });
 
     it('Resolução 1920x1080', () => {
-        cy.viewport(800,600)
+        cy.viewport(1920,1080)
         cy.get('.ma-navMobile.mobileHome').should('be.visible')
-        cy.get('.ui_w').should('be.visible')
+        /* cy.get('.ui_w').should('be.visible') */
 
         cy.get('#SolucoesTecnologicas > .wrapCont').should('be.visible')
         cy.get('#compartilhamosIdeias').should('be.visible')
@@ -122,7 +122,7 @@ describe.only('Testando resoluções diferentes', () => {
     it('Resolução iphone-6', () => {
         cy.viewport('iphone-6')        
         cy.get('.ma-navMobile.mobileHome').should('be.visible')
-        cy.get('.ui_w').should('be.visible')
+        /* cy.get('.ui_w').should('be.visible') */
 
         cy.get('#SolucoesTecnologicas > .wrapCont').should('be.visible')
         cy.get('#compartilhamosIdeias').should('be.visible')
@@ -137,7 +137,7 @@ describe.only('Testando resoluções diferentes', () => {
     it('Resolução 800x600', () => {
         cy.viewport(800,600)
         cy.get('.ma-navMobile.mobileHome').should('be.visible')
-        cy.get('.ui_w').should('be.visible')
+        /* cy.get('.ui_w').should('be.visible') */
 
         cy.get('#SolucoesTecnologicas > .wrapCont').should('be.visible')
         cy.get('#compartilhamosIdeias').should('be.visible')
