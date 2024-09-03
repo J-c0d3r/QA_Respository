@@ -22,6 +22,7 @@ jobs:
     - name: Step 3 Run Tests - Execute collection        
       run: |
         cd Postman
+        ls -la
         newman run ./serverestAPI.json -e ./serverestEnv.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html
     
     - name: Step 4 Archive production artifacts
