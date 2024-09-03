@@ -1,3 +1,5 @@
+[![CypressCI](https://github.com/J-c0d3r/QA_Respository/actions/workflows/ci.yml/badge.svg)](https://github.com/J-c0d3r/QA_Respository/actions/workflows/ci.yml)
+
 # Software Quality
 
 My portfolio contains some test cases.🧪 <br>
