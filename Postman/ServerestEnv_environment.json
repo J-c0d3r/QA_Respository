@@ -1,0 +1,57 @@
+{
+	"id": "715c8c2c-9fe4-45dd-a18c-2dfa10607828",
+	"name": "Serverest env",
+	"values": [
+		{
+			"key": "basicUrl",
+			"value": "https://serverest.dev/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ProductName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ProductPrice",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ProductDescription",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ProductQty",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "FALSEauthToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "prodID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "prodIDFALSE",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-09-03T20:14:57.471Z",
+	"_postman_exported_using": "Postman/11.10.1-240828-1302"
+}
