@@ -29,8 +29,8 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: report
-        path: ./results/Report.html
+        path: ./Postman/results/Report.html
 
     - name: Step test artifact
-      run: ls -la  
+      run: ls -la ./Postman
       
