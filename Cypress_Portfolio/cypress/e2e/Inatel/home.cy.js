@@ -146,8 +146,6 @@ describe.only('Testando resoluções diferentes', () => {
         cy.get('.backComImgFaixa6 > .wrap1396 > .wrapCont').should('be.visible')
         cy.get('[style="background: #f3f5fa;"] > .wrap1396 > .wrapCont').should('be.visible')
         cy.get('#sp-bottom').should('be.visible')
-
+        cy.wait(200)
     });
-
-
 });
