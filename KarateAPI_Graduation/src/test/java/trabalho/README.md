@@ -12,5 +12,3 @@ mvn clean install
 Para rodar os testes utilize o comando.
 mvn test -Dtest=Rick_MortyRunner
 ```
-
-
