@@ -23,7 +23,9 @@ jobs:
     steps:
     - name: Installing Maven
       run: |
+       ls -la
        cd KarateAPI_Graduation
+       ls -la
        mvn clean install
 
     - name: Run Tests   
@@ -35,7 +37,9 @@ jobs:
     steps:
     - name: Installing Maven
       run: |
+        ls -la
         cd KarateAPI_Portfolio
+        ls -la
         mvn clean install
   
     - name: Run Tests   

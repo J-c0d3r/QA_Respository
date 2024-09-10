@@ -1,4 +1,4 @@
-[![CypressCI](https://github.com/J-c0d3r/QA_Respository/actions/workflows/ci.yml/badge.svg)](https://github.com/J-c0d3r/QA_Respository/actions/workflows/ci.yml)
+[![CypressCI](https://github.com/J-c0d3r/QA_Respository/actions/workflows/cypress_CI.yml/badge.svg)](https://github.com/J-c0d3r/QA_Respository/actions/workflows/cypress_CI.yml)
 
 # Software Quality
 
