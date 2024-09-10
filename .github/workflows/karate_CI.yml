@@ -34,7 +34,7 @@ jobs:
     - name: Getting Artifacts
       uses: actions/upload-artifact@v4
       with:
-       name: report
+       name: report_KarateAPI_Graduation
        path: ./KarateAPI_Graduation/target/karate-reports/karate-summary.html
 
 
@@ -64,5 +64,5 @@ jobs:
     - name: Getting Artifacts
       uses: actions/upload-artifact@v4
       with:
-       name: report
+       name: report_KarateAPI_Portfolio
        path: ./KarateAPI_Portfolio/target/karate-reports/karate-summary.html
