@@ -35,7 +35,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
        name: report_KarateAPI_Graduation
-       path: ./KarateAPI_Graduation/target/karate-reports/karate-summary.html
+       path: ./KarateAPI_Graduation/target/karate-reports
 
 
   run_KarateAPI_Portfolio_Tests:    
@@ -65,4 +65,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
        name: report_KarateAPI_Portfolio
-       path: ./KarateAPI_Portfolio/target/karate-reports/karate-summary.html
+       path: ./KarateAPI_Portfolio/target/karate-reports
