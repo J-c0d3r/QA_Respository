@@ -1,4 +1,4 @@
-package API_Services;
+package tests_content;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
@@ -11,7 +11,7 @@ class RunAllTests {
     @Test
     void runAllTest() {
         /* return Karate.run().relativeTo(getClass()); */
-        Results results = Runner.path("classpath:API_Services")
+        Results results = Runner.path("classpath:tests_content")
                 .tags("~@ignore")
                 // .outputCucumberJson(true)
                 .parallel(10);

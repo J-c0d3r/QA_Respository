@@ -1,4 +1,4 @@
-package aula.json_placeholder;
+package tests_content.aula.json_placeholder;
 
 import com.intuit.karate.junit5.Karate;
 

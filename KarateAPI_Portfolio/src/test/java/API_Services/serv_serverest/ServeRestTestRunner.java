@@ -4,10 +4,12 @@ import com.intuit.karate.junit5.Karate;
 
 class ServeRestTestRunner {
 
+    //String file = "/users/" + "GET_GetProducts";
+
     @Karate.Test
-    Karate runRRTest() {
+    Karate runServrestTest() {
         return Karate.run().relativeTo(getClass());
-        /* return Karate.run("POST_RegisterUser").relativeTo(getClass()); */
+        /* return Karate.run(file).relativeTo(getClass()); */
     }
 
 }

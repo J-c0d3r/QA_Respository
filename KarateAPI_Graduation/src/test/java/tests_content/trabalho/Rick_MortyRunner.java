@@ -1,4 +1,4 @@
-package trabalho;
+package tests_content.trabalho;
 
 import com.intuit.karate.junit5.Karate;
 

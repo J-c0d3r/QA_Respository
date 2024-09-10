@@ -1,4 +1,4 @@
-package aula.pokemon;
+package tests_content.aula.pokemon;
 
 import com.intuit.karate.junit5.Karate;
 
