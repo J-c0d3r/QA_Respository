@@ -7,7 +7,7 @@ Feature:Testing Post Method
     * def requestBody = read("userdata_request.json")
     * def projectPath = karate.properties['user.dir']    
     * def requestBodyPath = projectPath+'\\src\\test\\java\\reqres_test\\data\\userdataRequest.json'
-    * def requestBodyPathJson = read('\\data\\userdataRequest.json')
+    * def requestBodyPathJson = read('data/userdataRequest.json')
 
   Scenario: Post new user - Successful
     Given path '/users'

@@ -23,13 +23,15 @@ jobs:
 
     - name: Installing Maven
       run: |
-       ls -la
        cd KarateAPI_Graduation
-       ls -la
        mvn clean install
 
     - name: Run Tests   
-      run: mvn test -Dtest=RunAllTests
+      run: |
+       ls -la
+       cd KarateAPI_Graduation
+       ls -la  
+       mvn test -Dtest=RunAllTests
 
 
   run_KarateAPI_Portfolio_Tests:    
@@ -46,11 +48,13 @@ jobs:
        distribution: 'adopt'
 
     - name: Installing Maven
-      run: |
-        ls -la
-        cd KarateAPI_Portfolio
-        ls -la
+      run: |        
+        cd KarateAPI_Portfolio        
         mvn clean install
   
     - name: Run Tests   
-      run: mvn test -Dtest=RunAllTests
+      run: |
+       ls -la  
+       cd KarateAPI_Portfolio
+       ls -la
+       mvn test -Dtest=RunAllTests
