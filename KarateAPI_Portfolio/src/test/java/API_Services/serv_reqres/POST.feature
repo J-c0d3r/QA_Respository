@@ -6,7 +6,7 @@ Feature:Testing Post Method
     * def expectedOutput = read("response1.json")
     * def requestBody = read("userdata_request.json")
     * def projectPath = karate.properties['user.dir']    
-    * def requestBodyPath = projectPath+'\\src\\test\\java\\yt_test\\data\\userdataRequest.json'
+    * def requestBodyPath = projectPath+'\\src\\test\\java\\reqres_test\\data\\userdataRequest.json'
     * def requestBodyPathJson = read('\\data\\userdataRequest.json')
 
   Scenario: Post new user - Successful
@@ -60,5 +60,3 @@ Feature:Testing Post Method
     And expectedOutput.job = 'engineer'
     And match response == expectedOutput    
     And match $ == expectedOutput
-
-

@@ -1,0 +1,7 @@
+---
+headers_presentation:
+  Content-Type: application/json
+  accept: application/json
+headers_post:
+  Content-Type: application/json
+  accept: application/json

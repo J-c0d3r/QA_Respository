@@ -1,0 +1,4 @@
+---
+password:
+  password_invalid: '99999999'
+  password_null: ''

@@ -5,7 +5,7 @@ Feature: Learning about karate-config.js
     * header Accept = 'application/json'
 
   Scenario: Printing Global Var
-    Given print myVarName
+    Given print myGlobalVarName
 
   Scenario: Method GET using ConfigFile resource
     Given path '/users?page=2'

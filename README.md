@@ -16,7 +16,20 @@ You can check the tests in folders:
 You can check the tests in folders:
 
 - KarateAPI_Graduation
+- KarateAPI_Portfolio
 
+---
+I used Serverest for creating tests. Tests that have already been implemented.
+<!-- ![alt text](img/tested_endpoints.jpg) -->
+<img src="img/tested_endpoints.jpg" width=40%>
+
+Tests created using these services:<br>
+Serverest <br>
+Reqres<br>
+RickAndMortyAPI<br>
+PokeAPI<br>
+SWAPI<br>
+JsonPlaceholder<br>
 
 <br>
 
