@@ -4,6 +4,7 @@ videos/
 reports/
 target/
 screenshots/
+build/
 
 # Optional npm cache directory
 .npm
@@ -11,6 +12,23 @@ screenshots/
 # dotenv environment variables file
 .env
 
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.swp
+*.swo
+.vscode
+
+# Outros arquivos temporários
+*.tmp
+
+# Outros arquivos
 package-lock.json
 
 1-getting-started
