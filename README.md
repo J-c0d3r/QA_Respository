@@ -5,14 +5,14 @@
 ## 📋 Contents
 
 - [About](#about)
-- [Tools Used](#🛠️tools-used)
+- [Tools Used](#tools-used)
 - [Type Tests](#type-tests)
 - [Tested E2E Sites](#tested-e2e-sites)
 - [Tested API Services](#tested-api-services)
 - [How To Execute Projects](#🚀how-to-execute-projects)
 
 ---
-## About <br>
+## About
 This repository (portfolio) contains test cases that I created with the aim of training my skills in the area of ​​QA and DevOps. <br>
 You can check various tests carried out both in terms of system and integration testing.🧪 <br>
 These tests are automated and integrated to run automatically in Github Action.🤖
@@ -101,7 +101,6 @@ Below is a table with the endpoints tested and the tools used.
 <br>
 
 ## 🚀How To Execute Projects
-
 Each project folder will contain the steps necessary to execute them.
 
 
