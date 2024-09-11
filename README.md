@@ -98,7 +98,6 @@ Below is a table with the endpoints tested and the tools used.
   - JsonPlaceholder
 
 ---
-<br>
 
 ## 🚀How To Execute Projects
 Each project folder will contain the steps necessary to execute them.
