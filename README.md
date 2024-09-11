@@ -9,7 +9,7 @@
 - [Type Tests](#type-tests)
 - [Tested E2E Sites](#tested-e2e-sites)
 - [Tested API Services](#tested-api-services)
-- [How To Execute Projects](#🚀how-to-execute-projects)
+- [How To Execute Projects](#how-to-execute-projects)
 
 ---
 ## About
@@ -23,7 +23,7 @@ You can explore various tests, including system and integration testing. These t
 
 ---
 
-## 🛠️Tools Used
+## Tools Used
 ### 🧪 Testing Tools
 <details>
   <summary><font size = "3">Cypress✅</font></summary>
