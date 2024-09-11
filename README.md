@@ -5,11 +5,11 @@
 ## 📋 Contents
 
 - [About](#about)
-- [Tools Used](#ToolsUsed)
-- [Type Tests](#TypeTests)
-- [Tested E2E Sites](#TestedE2ESites)
-- [Tested API Services](#TestedAPIServices)
-- [How To Execute Projects](#HowToExecuteProjects)
+- [Tools Used](#🛠️tools-used)
+- [Type Tests](#type-tests)
+- [Tested E2E Sites](#tested-e2e-sites)
+- [Tested API Services](#tested-api-services)
+- [How To Execute Projects](#🚀how-to-execute-projects)
 
 ---
 ## About <br>
@@ -23,7 +23,7 @@ You can explore various tests, including system and integration testing. These t
 
 ---
 
-## 🛠️ Tools Used 
+## 🛠️Tools Used
 ### 🧪 Testing Tools
 <details>
   <summary><font size = "3">Cypress✅</font></summary>
@@ -100,7 +100,7 @@ Below is a table with the endpoints tested and the tools used.
 ---
 <br>
 
-## 🚀 How To Execute Projects:
+## 🚀How To Execute Projects
 
 Each project folder will contain the steps necessary to execute them.
 
